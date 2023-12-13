@@ -34,8 +34,12 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-
+  display: flex;
+  flex-direction: column;
   background-color: #f7ead7;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
 }
 
 /*
@@ -63,6 +67,97 @@ body {
   margin: 0 auto;
   padding: 0 1.0rem;
 }
+
+/* ======== Header Stuff ==========*/
+header {
+  height: 8rem;
+}
+
+.navbar {
+  width: auto;
+  height: 6rem;
+  padding: ;
+}
+
+.nav-ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+  list-style: none;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.nav-logo-li {
+  display: flex;
+  background-color: black;
+  border-radius: 0.8rem;
+  justify-items: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  padding: 0.8rem;
+}
+
+#navLogo {
+  width: 4rem;
+  height: 4rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.contact-li {
+  display: flex;
+  background-color: black;
+  border-radius: 0.8rem;
+  width: 9rem;
+  height: 3.5rem;
+  justify-self: end;
+  
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+}
+
+#navContact {
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+/* ============= Hero Section ==============*/
+.hero {
+  height: 20rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+  background-color: aquamarine; /*REMOVE AFTER - Formating purposes*/
+}
+
+#hero-p1 {
+  font-size: 2rem;
+  display: none;
+  font
+}
+
+#hero-p2 {
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+#hero-p3 {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.68);
+}
+
+
+
 
 /*
  * ADD YOUR STYLES HERE
